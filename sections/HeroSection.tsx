@@ -7,6 +7,7 @@ import LinkButton from "../components/LinkButton";
 
 import satNaing from "../public/satnaing-illustration.webp";
 import laptop from "../public/laptop-illustration.webp";
+import MyTypeWriter from "../components/TypeWriter"
 
 const HeroSection: React.FC = () => {
   const sectionRef = useRef(null);
@@ -140,7 +141,8 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="overflow-hidden">
           <span className="text-animation text-2xl md:text-3xl lg:text-5xl block md:my-3 text-marrsgreen dark:text-carrigreen font-medium">
-            A Full-stack Developer
+            {/* A Full-stack Developer */}
+            <MyTypeWriter></MyTypeWriter>
           </span>
         </div>
         <div className="mt-2 my-4 md:mb-8">
