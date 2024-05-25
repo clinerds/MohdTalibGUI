@@ -33,11 +33,11 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
   return (
     <>
       <AppHead
-        title="Talib Malik - Jack of All Trades"
+        title="Mohd Talib - Jack of All Trades"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
-      <Loader> &lt;/Talib Malik&gt;</Loader>
+      <Loader> &lt;/Mohd Talib&gt;</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <SkipToMain />

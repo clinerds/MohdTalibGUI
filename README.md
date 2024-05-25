@@ -1,4 +1,4 @@
-# Talib Malik Portfolio & Blog
+# Mohd Talib Portfolio & Blog
 
 ![satnaing-portfolio-and-blog](https://user-images.githubusercontent.com/53733092/169645862-d1dda9cb-482f-4428-a63c-8eaf6910ab35.png)
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![vercel](https://img.shields.io/github/deployments/satnaing/my-portfolio/production?label=vercel&logo=vercel&logoColor=white)
