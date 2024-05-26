@@ -7,7 +7,7 @@ import LinkButton from "../components/LinkButton";
 
 import satNaing from "../public/satnaing-illustration.webp";
 import laptop from "../public/laptop-illustration.webp";
-import MyTypeWriter from "../components/TypeWriter"
+import MyTypeWriter from "../components/TypeWriter";
 
 const HeroSection: React.FC = () => {
   const sectionRef = useRef(null);
@@ -83,10 +83,9 @@ const HeroSection: React.FC = () => {
   }, [q]);
 
   const mystyle = {
-   
     fontFamily: "cursive",
 
-    fontSize: "large"
+    fontSize: "large",
   };
 
   return (
@@ -98,11 +97,10 @@ const HeroSection: React.FC = () => {
         aria-hidden="true"
         className="bg-text absolute -top-36 rotate-12 text-gray-100 dark:text-[#1f2e3a] text-9xl scale-150 tracking-wide font-bold select-none pointer-events-none text-center z-0"
         // className="bg-text absolute -top-23 rotate-6 text-gray-100 light:text-[#1f2e3a] text-2xl scale-150 tracking-wide font-bold select-none pointer-events-none text-center z-0"
-
->
+      >
         {/* PASSIONATE PROGRAMMER FREELANCER FULL-STACK DEVELOPER */}
-       CTF PLAYER WRITER REACTJS DEVELOPER
-       {/* Technology innovation software hardware cloud computing IoT blockchain networking automation digital transformation computing gadgets mobile wearables smart devices electronics code programming development IT infrastructure artificial intelligence machine learning neural networks deep learning algorithms data science natural language processing computer vision robotics predictive analytics big data cognitive computing AI ethics intelligent systems chatbots virtual assistants AI models data mining supervised learning unsupervised learning reinforcement learning cybersecurity encryption firewall malware phishing cyber attacks threat detection data breach vulnerability penetration testing cyber defense incident response secure coding cyber threats information security authentication access control intrusion detection security protocols cyber hygiene cyber forensics ransomware cyber resilience risk management security audit zero trust data privacy */}
+        CTF PLAYER WRITER REACTJS DEVELOPER
+        {/* Technology innovation software hardware cloud computing IoT blockchain networking automation digital transformation computing gadgets mobile wearables smart devices electronics code programming development IT infrastructure artificial intelligence machine learning neural networks deep learning algorithms data science natural language processing computer vision robotics predictive analytics big data cognitive computing AI ethics intelligent systems chatbots virtual assistants AI models data mining supervised learning unsupervised learning reinforcement learning cybersecurity encryption firewall malware phishing cyber attacks threat detection data breach vulnerability penetration testing cyber defense incident response secure coding cyber threats information security authentication access control intrusion detection security protocols cyber hygiene cyber forensics ransomware cyber resilience risk management security audit zero trust data privacy */}
       </span>
 
       <div className="image-animation z-10 select-none mt-0 xs:mt-6 sm:mt-14 lg:mt-0 px-0 mx-auto lg:p-0 lg:basis-1/3">
@@ -147,24 +145,36 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-            I am a Full-Stack Developer with a passion for delivering
-            exceptional results.
+            {/* I am a Full-Stack Developer with a passion for delivering
+            exceptional results. */}
+            I'm a Jack of All Trades in the tech world, Stealing ideas like an
+            artist!
           </p>
           <p>
-            With my expertise in React and NextJS on the frontend, and PHP,
+            {/* With my expertise in React and NextJS on the frontend, and PHP,
             CodeIgniter, NodeJS, and Express on the backend, I bring a unique
             combination of technical skills and creative problem-solving to
-            every project I work on.
+            every project I work on. */}
+            Proficient in Python, ReactJS, and Linux administration, I also dive
+            into CTFs for Cybersecurity exercises. I'm also into AI/ML, grabbing the
+            latest models from Hugging Face to train them on my own data. I
+            thrive on learning and love a good challenge, keeping things fun and
+            interesting along the way!
           </p>
           &nbsp;
           <blockquote style={mystyle}>
-            <i>“Whosoever is delighted in solitude, is either a wild beast or a god.” <span style={{color: "#05ce91"}}>~ Aristotle</span></i> 
+            <i>
+              “Whosoever is delighted in solitude, is either a wild beast or a
+              god.” <span style={{ color: "#05ce91" }}>~ Aristotle</span>
+            </i>
           </blockquote>
         </div>
-
-        
         <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
           Contact me!
+        </LinkButton>
+        &nbsp;
+        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+          Wanna Get Geeky?
         </LinkButton>
       </div>
       <a

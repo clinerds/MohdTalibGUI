@@ -10,6 +10,11 @@ import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
 import satNaing from "../public/satnaing.webp";
+import mohdtalib from "../public/mohd-talib.jpg";
+import mohdtalib2 from "../public/mohd-talib-2.jpg";
+import mohdtalib3 from "../public/mohd-talib-3.jpg";
+
+
 import AboutBgSvg from "@/components/AboutBgSvg";
 import EduGroup from "@/components/EduGroup";
 
@@ -135,7 +140,8 @@ const AboutSection: React.FC = () => {
 
                 <div className="profile-picture overflow-hidden md:overflow-visible rounded-md md:shadow-2xl">
                   <Image
-                    src={satNaing}
+                    // src={satNaing}
+                    src={mohdtalib2}
                     width={1700}
                     height={1790}
                     priority
