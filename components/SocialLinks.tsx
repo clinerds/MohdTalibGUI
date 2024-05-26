@@ -41,6 +41,7 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
               key={social.id}
               title={social.title}
               href={social.link}
+              target={social.target}
               className="scale-110 rounded link-outline"
             >
               {social.svg}
@@ -56,8 +57,9 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
 const socialLinks = [
   {
     id: 1,
-    title: "Sat Naing's Github Profile",
-    link: "https://github.com/satnaing",
+    title: "Mohd Talib's Github Profile",
+    link: "https://github.com/clinerds",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -75,8 +77,9 @@ const socialLinks = [
   },
   {
     id: 2,
-    title: "Sat Naing's LinkedIn Profile",
-    link: "https://www.linkedin.com/in/satnaing/",
+    title: "Mohd Talib's LinkedIn Profile",
+    link: "https://www.linkedin.com/in/mohd-talib-a57980286/",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -91,8 +94,9 @@ const socialLinks = [
   },
   {
     id: 3,
-    title: "Check Sat Naing on Dev.to",
-    link: "https://dev.to/satnaing",
+    title: "Check Mohd Talib on Dev.to",
+    link: "https://dev.to/mohd_talib_c178d6b96feff7",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -106,8 +110,9 @@ const socialLinks = [
   },
   {
     id: 4,
-    title: "Sat Naing's Profile on Facebook",
-    link: "https://www.facebook.com/satnaing.dev",
+    title: "Mohd Talib's Profile on Facebook",
+    link: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-tjAhCTBIEPdo_rm6_d2b_OtWO8dD_jSdvAnpcjTrFXDmD8sy8pcDQyATgqFX4iGhBChhInLgDw6WsMnEQI1G7Y-mcupMK-iq1gFeTdkOhp36ZHi9RmJyXOSK-ZpfR9BrNaoEgSql_BI/s1600/not-on-facebook.png",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

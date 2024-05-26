@@ -13,6 +13,7 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
             key={social.id}
             href={social.link}
             title={social.title}
+            target={social.target}
             className="transform scale-150 md:scale-125 link-outline"
           >
             {social.svg}
@@ -20,7 +21,7 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
         ))}
       </div>
       <div>
-        Coded with <span className="sr-only">love</span>
+        Orignally Coded with <span className="sr-only">love</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5 mx-1 inline-block mb-1"
@@ -36,7 +37,7 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
             d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
           />
         </svg>{" "}
-        by Sat Naing
+        by Sat Naing, I just made some modifications
       </div>
     </footer>
   );
@@ -45,8 +46,9 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
 const socialLinks = [
   {
     id: 1,
-    title: "Sat Naing's Github Profile",
-    link: "https://github.com/satnaing",
+    title: "Mohd Talib's Github Profile",
+    link: "https://github.com/clinerds",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +66,9 @@ const socialLinks = [
   },
   {
     id: 2,
-    title: "Sat Naing's LinkedIn Profile",
-    link: "https://www.linkedin.com/in/satnaing/",
+    title: "Mohd Talib's LinkedIn Profile",
+    link: "https://www.linkedin.com/in/mohd-talib-a57980286/",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +83,9 @@ const socialLinks = [
   },
   {
     id: 3,
-    title: "Check Sat Naing on Dev.to",
-    link: "https://dev.to/satnaing",
+    title: "Check Mohd Talib on Dev.to",
+    link: "https://dev.to/mohd_talib_c178d6b96feff7",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -95,8 +99,9 @@ const socialLinks = [
   },
   {
     id: 4,
-    title: "Sat Naing's Profile on Facebook",
-    link: "https://www.facebook.com/satnaing.dev",
+    title: "Mohd Talib's Profile on Facebook",
+    link: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-tjAhCTBIEPdo_rm6_d2b_OtWO8dD_jSdvAnpcjTrFXDmD8sy8pcDQyATgqFX4iGhBChhInLgDw6WsMnEQI1G7Y-mcupMK-iq1gFeTdkOhp36ZHi9RmJyXOSK-ZpfR9BrNaoEgSql_BI/s1600/not-on-facebook.png",
+    target: "_blank",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

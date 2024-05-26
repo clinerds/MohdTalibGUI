@@ -21,12 +21,16 @@ type Props = {
 
 export const meta = {
   description:
-    "Sat Naing is a full-stack developer based in Yangon, Myanmar. He is passionate about writing codes and developing web applications to solve real-life challenges.",
-  author: "Sat Naing",
+    // "Sat Naing is a full-stack developer based in Yangon, Myanmar. He is passionate about writing codes and developing web applications to solve real-life challenges.",
+  "Mohd Talib is a Polymath in the tech world, Stealing ideas like an artist! Proficient in Python, ReactJS, and Linux administration, I also dive into CTFs for Cybersecurity exercises.",
+  // author: "Sat Naing",
+  author: "Mohd Talib",
   type: "website",
-  ogImage: `${process.env.NEXT_PUBLIC_URL}/satnaing-dev-og-new.png`,
-  siteName: "Sat Naing",
-  imageAlt: "Sat Naing portfolio website",
+  // ogImage: `${process.env.NEXT_PUBLIC_URL}/satnaing-dev-og-new.png`,
+  // siteName: "Sat Naing",
+  // imageAlt: "Sat Naing portfolio website",
+  siteName: "Mohd Talib",
+  imageAlt: "Mohd Talib portfolio website",
 };
 
 const Home: NextPage<Props> = ({ blogPosts }) => {

@@ -25,6 +25,25 @@ const navLinks = [
     ),
     text: "Projects",
   },
+  // {
+  //   url: "#certifications",
+  //   svg: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+  //       <path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z" />
+  //     </svg>
+  //   ),
+  //   text: "Certifications",
+  // },
+  {
+    url: "https://samael-digital-garden.vercel.app",
+    svg: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+        <path d="M16,14H8a1,1,0,0,0,0,2h8a1,1,0,0,0,0-2Zm0-4H10a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2Zm4-6H17V3a1,1,0,0,0-2,0V4H13V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H4A1,1,0,0,0,3,5V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V5A1,1,0,0,0,20,4ZM19,19a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V6H7V7A1,1,0,0,0,9,7V6h2V7a1,1,0,0,0,2,0V6h2V7a1,1,0,0,0,2,0V6h2Z" />
+      </svg>
+    ),
+    text: "Notes",
+    target: "_blank",
+  },
   {
     url: "#blog",
     svg: (
@@ -35,15 +54,15 @@ const navLinks = [
     ),
     text: "Blog",
   },
-  {
-    url: "#contact",
-    svg: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-        <path d="M20.563 3.34a1.002 1.002 0 0 0-.989-.079l-17 8a1 1 0 0 0 .026 1.821L8 15.445v6.722l5.836-4.168 4.764 2.084a1 1 0 0 0 1.399-.85l1-15a1.005 1.005 0 0 0-.436-.893zm-2.466 14.34-5.269-2.306L16 9.167l-7.649 4.25-2.932-1.283 13.471-6.34-.793 11.886z" />
-      </svg>
-    ),
-    text: "Contact",
-  },
+  // {
+  //   url: "#contact",
+  //   svg: (
+  //     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+  //       <path d="M20.563 3.34a1.002 1.002 0 0 0-.989-.079l-17 8a1 1 0 0 0 .026 1.821L8 15.445v6.722l5.836-4.168 4.764 2.084a1 1 0 0 0 1.399-.85l1-15a1.005 1.005 0 0 0-.436-.893zm-2.466 14.34-5.269-2.306L16 9.167l-7.649 4.25-2.932-1.283 13.471-6.34-.793 11.886z" />
+  //     </svg>
+  //   ),
+  //   text: "Contact",
+  // },
 ];
 
 const Header: React.FC = () => {
@@ -104,6 +123,7 @@ const Header: React.FC = () => {
                   <li key={navLink.url}>
                     <a
                       href={navLink.url}
+                      target={navLink.target}
                       className={`text-sm md:text-lg flex flex-col items-center w-[4.5rem] md:w-auto dark:fill-textlight md:mr-6 md:hover:text-marrsgreen md:dark:hover:text-carrigreen link-outline ${
                         currentSection === navLink.text.toLocaleLowerCase() &&
                         "text-marrsgreen dark:text-carrigreen fill-marrsgreen dark:fill-carrigreen"
@@ -113,7 +133,10 @@ const Header: React.FC = () => {
                       <span className="whitespace-nowrap">{navLink.text}</span>
                     </a>
                   </li>
+             
+                  
                 ))}
+              
               </ul>
             </div>
             <button

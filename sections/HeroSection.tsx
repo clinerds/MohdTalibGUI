@@ -112,8 +112,8 @@ const HeroSection: React.FC = () => {
               height={1374}
               priority
               id="character-illustration"
-              aria-label="Sat Naing character illustration levitating with a Macbook"
-              alt="Sat Naing character illustration"
+              aria-label="Mohd Talib character illustration levitating with a Macbook"
+              alt="Mohd Talib character illustration"
             />
           </div>
           <div className="laptop absolute top-14 sm:top-16 left-0 scale-[.41] xs:scale-[.45] pointer-events-none">
@@ -169,13 +169,16 @@ const HeroSection: React.FC = () => {
             </i>
           </blockquote>
         </div>
-        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+        <LinkButton href="mailto:mohdtalib667@gmail.com">
           Contact me!
         </LinkButton>
+        {/* <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+          Contact me!
+        </LinkButton> */}
         &nbsp;
-        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+        {/* <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
           Wanna Get Geeky?
-        </LinkButton>
+        </LinkButton> */}
       </div>
       <a
         href="#whoami"

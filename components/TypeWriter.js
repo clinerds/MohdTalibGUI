@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter'
 export default function MyTypeWriter() {
   return (
     <Typewriter
-    words={['Python Programmer', 'ReactJS Developer', 'CTF Player', 'Writer', 'AI/ML Ethusiast']}
+    words={['Python Programmer', 'ReactJS Developer', 'CTF Player', 'Writer', 'AI/ML Enthusiast']}
     loop={9}
     cursor
     cursorStyle='_'

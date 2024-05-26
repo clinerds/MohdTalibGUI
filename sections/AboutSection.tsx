@@ -14,7 +14,6 @@ import mohdtalib from "../public/mohd-talib.jpg";
 import mohdtalib2 from "../public/mohd-talib-2.jpg";
 import mohdtalib3 from "../public/mohd-talib-3.jpg";
 
-
 import AboutBgSvg from "@/components/AboutBgSvg";
 import EduGroup from "@/components/EduGroup";
 
@@ -145,7 +144,7 @@ const AboutSection: React.FC = () => {
                     width={1700}
                     height={1790}
                     priority
-                    alt="Sat Naing profile picture"
+                    alt="Mohd Talib profile picture"
                     className="rounded-md"
                   />
                 </div>
@@ -175,11 +174,23 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              With 4+ years of comprehensive experience in web application
+              {/* With 4+ years of comprehensive experience in web application
               development, I have polished my skills in both frontend and
               backend development. In addition to my hands-on experience in web
               development, my education has also played a critical role in
-              providing a strong foundation for my career.
+              providing a strong foundation for my career. */}
+              {/* With 3+ years of comprehensive experience in 
+              Python, ReactJS and Linux Server Administration, 
+              I have polished my skills in both frontend and
+              backend. In addition to my hands-on experience 
+              in development CTFs are continuously imporving 
+              my problem solving skills,my education has also 
+              played a critical role inproviding a strong foundation for my career. */}
+              With 4+ years of personal experience in Python, ReactJS and Linux
+              Server Administration, I have polished my skills in both frontend
+              and backend. CTFs are continuously imporving my problem solving
+              skills, my education has also played a critical role inproviding a
+              strong foundation for my career.
             </p>
 
             <div
@@ -189,6 +200,12 @@ const AboutSection: React.FC = () => {
               <p className="edu-bg my-4">Here is my educational background.</p>
               {educationInfo.map((edu) => (
                 <EduGroup edu={edu} key={edu.id} />
+              ))}
+              <p className="edu-bg my-4">
+              An opportunity I didn't missed.
+              </p>
+              {oppurtunityInfo.map((opp) => (
+                <EduGroup edu={opp} key={opp.id} />
               ))}
             </div>
           </div>
@@ -203,29 +220,81 @@ const AboutSection: React.FC = () => {
 const educationInfo = [
   {
     id: 1,
-    title: "B.Sc (Hons) in Computing",
-    subTitle: "Edinburgh Napier University | 2018 ~ 2019",
+    title: "BCA - Bachelor in Computer Applications",
+    subTitle: "Indira Gandhi National Open University | 2022 ~ 2025 (Expected)",
     list: [
-      "Studied computer science, software development, DevOps",
-      "Graduated with First Class Honours",
-      "Got merit in 7 modules out of 9",
+      "Studying Computer Science, Software Development, DevOps",
+      "Currently excelling in my studies with a focus on Advanced Modules",
+      "Engaging in Personal Projects to stay ahead of technology trends",
     ],
   },
+  // {
+  //   id: 1,
+  //   title: "B.Sc (Hons) in Computing",
+  //   subTitle: "Edinburgh Napier University | 2018 ~ 2019",
+  //   list: [
+  //     "Studied computer science, software development, DevOps",
+  //     "Graduated with First Class Honours",
+  //     "Got merit in 7 modules out of 9",
+  //   ],
+  // },
+  // {
+  //   id: 2,
+  //   title: "HND in Computing & System Development",
+  //   subTitle: "Info Myanmar University | 2016 - 2018",
+  //   list: [
+  //     "Studied modules specializing in software development",
+  //     "Passed HND with overall Merit",
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   title: "IELTS",
+  //   subTitle: "British Council Myanmar | 2017",
+  //   list: ["Got overall band score 6.5."],
+  // },
+];
+
+const oppurtunityInfo = [
   {
-    id: 2,
-    title: "HND in Computing & System Development",
-    subTitle: "Info Myanmar University | 2016 - 2018",
+    id: 1,
+    title: "Software Development Intern",
+    subTitle: "Tattva Foundation | 2021 ~ 2022",
     list: [
-      "Studied modules specializing in software development",
-      "Passed HND with overall Merit",
+      // "Studying computer science, software development, DevOps",
+      // "Currently excelling in my studies with a focus on advanced modules",
+      // "Engaging in personal projects to stay ahead in technology trends.",
+      "Participated in a project focusing on Python Django and ReactJS",
+      "Spearheaded the Development of a Hospital Delivery Management System ",
+      "Utilized React for the frontend and Python Django for the backend",
+      "Acquired essential skills in Full-Stack Development",
     ],
   },
-  {
-    id: 3,
-    title: "IELTS",
-    subTitle: "British Council Myanmar | 2017",
-    list: ["Got overall band score 6.5."],
-  },
+  // {
+  //   id: 1,
+  //   title: "B.Sc (Hons) in Computing",
+  //   subTitle: "Edinburgh Napier University | 2018 ~ 2019",
+  //   list: [
+  //     "Studied computer science, software development, DevOps",
+  //     "Graduated with First Class Honours",
+  //     "Got merit in 7 modules out of 9",
+  //   ],
+  // },
+  // {
+  //   id: 2,
+  //   title: "HND in Computing & System Development",
+  //   subTitle: "Info Myanmar University | 2016 - 2018",
+  //   list: [
+  //     "Studied modules specializing in software development",
+  //     "Passed HND with overall Merit",
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   title: "IELTS",
+  //   subTitle: "British Council Myanmar | 2017",
+  //   list: ["Got overall band score 6.5."],
+  // },
 ];
 
 export default AboutSection;
