@@ -106,7 +106,7 @@ const projects = [
     liveUrl: "https://samael-digital-garden.vercel.app/",
     codeUrl: "https://github.com/clinerds/samael-learning-live-issue",
     bgColor: "bg-[#B4BEE0]",
-    // githubApi: "https://api.github.com/repos/satnaing/terminal-portfolio",
+    githubApi: "https://api.github.com/repos/clinerds/samael-learning-live-issue",
   },
   {
     title: "Terminal Portfolio (Under Development)",
@@ -123,10 +123,10 @@ const projects = [
     ),
     desc: "My portfolio website in terminal version developing with React and TypeScript. ",
     tags: ["React", "TypeScript", "Styled-Components"],
-    // liveUrl: "https://terminal.satnaing.dev/",
-    // codeUrl: "https://github.com/satnaing/terminal-portfolio",
+    liveUrl: "https://github.com/clinerds/",
+    codeUrl: "https://github.com/clinerds/",
     bgColor: "bg-[#B4BEE0]",
-    // githubApi: "https://api.github.com/repos/satnaing/terminal-portfolio",
+    githubApi: "",
   },
   // {
   //   title: "Haru Fashion",
