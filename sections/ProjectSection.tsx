@@ -179,7 +179,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Building Generative AI Applications With Python ",
+    desc: "Building Generative AI Applications With Python Certification",
     tags: ["Generative AI", "Python", "LLMs"],
     liveUrl: "https://coursera.org/verify/52Y98PZQPXGB",
     codeUrl: "https://www.coursera.org/learn/building-gen-ai-powered-applications",
@@ -206,7 +206,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Hands On Offensive Penetration Testing ",
+    desc: "Hands On Offensive Penetration Testing Certification",
     tags: ["Cybersecurity", "Scripting", "Bash"],
     liveUrl: "https://app.cybrary.it/courses/api/certificate/CC-e98fcfc4-7de1-4334-974b-5a31ec3689a8/view",
     codeUrl: "https://www.cybrary.it/course/offensive-penetration-testing",
