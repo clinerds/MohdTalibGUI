@@ -10,7 +10,7 @@ tags:
 author: Mohd Talib
 type: article
 coverImage: https://hips.hearstapps.com/hmg-prod/images/gettyimages-154571070sq.jpg
-coverImageAlt: The Economy of Attention
+coverImageAlt: Absurdity
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
   This report delves deep into the concept of attention as a valuable resource in the digital age. It explores the evolution of social media, the impact of constant distraction, and the exploitation of attention by corporations.
