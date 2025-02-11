@@ -9,7 +9,7 @@ tags:
   - StrivingForAttention
 author: Mohd Talib
 type: article
-coverImage: https://www.gstatic.com/webp/gallery/1.sm.webp
+coverImage: https://wpswings.com/wp-content/uploads/2025/01/Feature-banner-Best-Bookkeeping-Softwares-min-1.webp
 coverImageAlt: Absurdity
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
