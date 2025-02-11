@@ -9,7 +9,7 @@ tags:
   - StrivingForAttention
 author: Mohd Talib
 type: article
-coverImage: public/laptop-illustration.webp
+coverImage: ../public/projects/digital-garden.png
 coverImageAlt: Absurdity
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
