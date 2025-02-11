@@ -9,7 +9,7 @@ tags:
   - StrivingForAttention
 author: Mohd Talib
 type: article
-coverImage: https://media.newyorker.com/photos/5909675d019dfc3494ea0dd0/16:9/w_1280,c_limit/120409_r22060_g2048.jpg
+coverImage: https://hips.hearstapps.com/hmg-prod/images/gettyimages-154571070sq.jpg
 coverImageAlt: The Economy of Attention
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
