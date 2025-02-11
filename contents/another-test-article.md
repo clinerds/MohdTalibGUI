@@ -9,7 +9,7 @@ tags:
   - StrivingForAttention
 author: Mohd Talib
 type: article
-coverImage: https://unruly.co/wp-content/uploads/2021/10/1_I8gMI1qAxX2dBu4o54V6ew-scaled.jpeg
+coverImage: https://www.gstatic.com/webp/gallery/1.sm.webp
 coverImageAlt: Absurdity
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
