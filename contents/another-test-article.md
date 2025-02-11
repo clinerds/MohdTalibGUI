@@ -9,7 +9,7 @@ tags:
   - StrivingForAttention
 author: Mohd Talib
 type: article
-coverImage: https://hips.hearstapps.com/hmg-prod/images/gettyimages-154571070sq.jpg
+coverImage: public/laptop-illustration.webp
 coverImageAlt: Absurdity
 title: THe ABSURDITY OF LIFEEEEEEE
 description:
