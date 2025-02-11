@@ -1,6 +1,6 @@
 ---
-coverImageWidth: "1200"
-coverImageHeight: "700"
+coverImageWidth: "100"
+coverImageHeight: "100"
 datetime: 2023-10-02T03:42:51Z
 tags:
   - TheAttentionEconomy
